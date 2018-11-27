@@ -70,14 +70,14 @@ resources:
 - name: monitoring-app
   type: git
   source:
-      uri: https://github.com/devopsrandom333/exam-app.git
+      uri: git@github.com:JarandsTestOrg/exam-app.git
       branch: master
       private_key: ((deploy_key_app))
 
 - name: monitoring-infra
   type: git
   source:
-      uri: git@github.com:devopsrandom333/exam-infra.git
+      uri: git@github.com:JarandsTestOrg/exam-infra.git
       branch: master
       private_key: ((deploy_key_infra))
 

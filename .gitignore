@@ -10,6 +10,8 @@ credentials.yml
 cred.yml
 .terraform
 credentials-sample.yml
+exam-infra/terraform/provider_heroku.tf
+exam-infra/terraform/statuscake.tf
 
 # Created by https://www.gitignore.io/api/intellij
   # Edit at https://www.gitignore.io/?templates=intellij
