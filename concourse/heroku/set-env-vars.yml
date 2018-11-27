@@ -30,4 +30,4 @@ run:
 
     heroku config:set HOSTEDGRAPHITE_APIKEY=${hostedgraphite_apikey} -a ${app_name}
 
-    heroku config:set HOSTEDGRAPHITE_APIKEY=${hostedgraphite_apikey} -a ${app_name}-app-ci
+    heroku config:set HOSTEDGRAPHITE_APIKEY=${hostedgraphite_apikey} -a ${app_name}
