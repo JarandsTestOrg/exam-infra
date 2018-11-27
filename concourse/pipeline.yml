@@ -29,7 +29,7 @@ jobs:
   - task: set-env-vars
     file: monitoring-infra/concourse/heroku/set-env-vars.yml
     params:
-      app_name: ((heroku_app_name))
+      app_name: ((heroku_app_name))-app-ci
       heroku_api_token: ((heroku_api_key))
       heroku_email: ((heroku_email))
       hostedgraphite_apikey: ((hostedgraphite_apikey))
